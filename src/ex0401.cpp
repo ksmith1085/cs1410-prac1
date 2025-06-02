@@ -7,7 +7,6 @@ struct Date{
     int year;
     string month;
     int day;
-
 };
 
 struct Point{
