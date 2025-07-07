@@ -6,10 +6,13 @@
 
 
 class Author{
+    
     private:
         std::string name, nationality; 
 
     public:
+        Author();//this needs to be added if to be used within the book.cpp and or the book.h
+
         Author(const std::string& name, const std::string& nationality);
         //const makes it so the attachments aren't modifiable 
         //the above are constructs 
